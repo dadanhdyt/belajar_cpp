@@ -7,6 +7,8 @@ int main()
     cout << "MASUKAN N: "; cin >> n;
     fn1 = 0;
     fn2 = 1;
+    fn = fn1 + fn2;
+    cout << fn <<endl;
     for(int i = 0; i <= n ; ++i)
     {
         fn = fn1 + fn2;
